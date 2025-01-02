@@ -1,6 +1,6 @@
 config = {
-    "google_api_key": "AIzaSyAhVk0Sf5t_gZ_LsM1VXMb89Dh-Twct6Yo",
-    "youtube_playlist_id": "PLaz3Ms051BAkwR7d9voHsflTRmumfkGVW",
+    "google_api_key": "your_google_api_key",
+    "youtube_playlist_id": "any_youtube_playlist_id",
     "kafka": {
         "bootstrap.servers": "localhost:9092",
         "security.protocol": "PLAINTEXT",

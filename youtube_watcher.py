@@ -85,7 +85,7 @@ def main():
     youtube_videos_value_schema = schema_registry_client.get_latest_version("youtube_videos-value")
 
     kafka_config = config["kafka"] | {
-        "key.serializer": StringSerializer,
+        "key.serializer": StringSerializer(),
         "value.serializer": AvroSerializer(
             schema_registry_client,
             youtube_videos_value_schema.schema.schema_str,
